@@ -1,0 +1,58 @@
+/** @format */
+body {
+  background-image: url('Images/ruvim-noga-pazM9TQJ2Ck-unsplash.jpg');
+  background-attachment: fixed;
+}
+.container 
+{
+  text-align: center;
+  margin-top: auto;
+}
+
+table 
+{
+  margin: auto;
+}
+
+input 
+{
+  border-radius: 5px;
+  border: 4px solid #c52813;
+  font-size: 26px;
+  height: 7vh;
+  width: 389px;
+}
+
+button 
+{
+  border-radius: 10px;
+  font-size: 39px;
+  background: #0fb4d8;
+  width: 69px;
+  height: 69px;
+  margin: 9px;
+  transition: all 200ms ease;
+}
+
+button:hover 
+
+{
+  transform: scale(1.1);
+}
+
+.calculator
+
+{
+  border: 4px solid #4b10ea;
+  background-color: #d5bf18;
+  padding: 20px;
+  border-radius: 39px;
+  display: inline-block;
+}
+
+h1 
+{
+  font-size: 39px;
+  font-family: cursive;
+  background-color: chocolate;
+}

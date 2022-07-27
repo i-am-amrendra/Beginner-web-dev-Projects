@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT ENROLLMENT FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>STUDENT REGISTRATION FORM</h1>
+    </div>
+
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label >First Name</label>
+                        <input type="text" name="FName" id="FName">
+                    </div>
+                    <div>
+                        <label>Last Name</label>
+                        <input type="text" name="LName" id="LName">
+                    </div>
+                    <div>
+                        <label>Contact No.</label>
+                        <input type="text" name="Contact" id="Contact">
+                    </div>
+                    <div>
+                        <label>Email Id</label>
+                        <input type="text" name="Email" id="Email">
+                    </div>
+                    <div>
+                        <label>Branch</label>
+                        <input type="text" name="Branch" id="Branch">
+                    </div>
+                    <div>
+                        <label>Date of Birth</label>
+                        <input type="date" name="DOB" id="DOB">
+                    </div>
+                    <div class="form-action-buttons">
+                        <input type="Submit" value="Submit">
+                        <input type="Reset" value="Reset">
+                    </div>
+                </form>
+            </td>
+            <td>
+                    <table class="list" id="studentList">
+                        <thread>
+                            <tr>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>Contact No.</th>
+                                <th>Email Id</th>
+                                <th>Branch</th>
+                                <th>Date of Birth</th>
+                            </tr>
+                        </thread>
+                        <tbody>
+
+
+                        </tbody>
+                    </table>
+                </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
