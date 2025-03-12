@@ -1,5 +1,5 @@
 ## 😍 Beginners Web-Dev Projects
 🔸 This Repo contains the three simple projects for starting the Web development as Beginners to understand the basic concepts of the Development to glorify the Website 
 needs to make it wonderfully presentable.
-1). QR-Scan : `https://qr-scan-card.vercel.app/`
-2). Dot-Connect :  `https://dots-master.vercel.app/`
+#### QR-Scan : [Click here to visit](https://qr-scan-card.vercel.app/) - `URL: https://qr-scan-card.vercel.app/`
+#### Dot-Connect :  [Click here to visit](https://dots-master.vercel.app/) -`URL: https://dots-master.vercel.app/`
