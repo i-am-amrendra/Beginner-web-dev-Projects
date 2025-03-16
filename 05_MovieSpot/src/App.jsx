@@ -54,7 +54,7 @@ export default function App() {
 
   const handleSearchSubmit = async () => {
     const response = await axios.get(
-      "https://api.themoviedb.org/3/discover/movie",
+      "https://api.themoviedb.org/3/search/movie",
       {
         params: {
           api_key: "d6f662345ecbbb7b52c6bf95095b31ab",
