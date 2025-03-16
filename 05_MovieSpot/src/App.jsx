@@ -5,7 +5,7 @@ import { AiOutlineHome, AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import axios from "axios";
 
 export default function App() {
-  const API_KEY = import.meta.env.VITE_MOVIE_API_KEY;
+  const API = import.meta.env.VITE_MOVIE_API;
   const [movies, setMovies] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [sortBy, setSortBy] = useState("popularity.desc");
@@ -20,7 +20,7 @@ export default function App() {
         "https://api.themoviedb.org/3/genre/movie/list",
         {
           params: {
-            api_key: API_KEY,
+            api_key: API,
           },
         }
       );
@@ -35,7 +35,7 @@ export default function App() {
         "https://api.themoviedb.org/3/discover/movie",
         {
           params: {
-            api_key: API_KEY,
+            api_key: API,
             sort_by: sortBy,
             page: currentPage,
             with_genres: selectedGenre,
